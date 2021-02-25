@@ -1,0 +1,9 @@
+IT ecosystem;aspect;category;rating
+some company;Security;Data masking;-1
+some company;Security;Https;1
+some company;Security;AVG;0
+some company;Observability;Business metrieken;-1
+some company;Observability;Software metrieken;0
+some company;Four key metrics;Lead time;0
+some company;Four key metrics;Deploy frequency;0
+some company;Four key metrics;Time to restore service;1
