@@ -1,0 +1,38 @@
+IT ecosystem;aspect;category;rating;weight
+some company;legality;GDPR;1;1
+some company;legality;licensing;1;1
+some company;legality;service level agreements;0;0
+some company;security;access regulation;-1;0
+some company;security;encryption;1;1
+some company;security;owasp dependency checks;-1;1
+some company;observability;business metrics;0;1
+some company;observability;application metrics;-1;1
+some company;observability;system metrics;0;1
+some company;observability;code metrics;0;1
+some company;observability;source control metrics;-1;1
+some company;observability;log file access;1;1
+some company;architecture;component dependencies;1;2
+some company;architecture;team dependencies;0;3
+some company;architecture;scalability;-1;0
+some company;development teams;allignment;0;3
+some company;development teams;autonomy;0;3
+some company;development teams;cognitive load;1;3
+some company;development teams;development process;0;1
+some company;development teams;four key metrics;-1;3
+some company;quality;automated testing;0;2
+some company;quality;general automatisation;0;1
+some company;quality;reviews;1;1
+some company;quality;maintainability;0;1
+some company;quality;adoptability;0;1
+some company;quality;modifyability;0;1
+some company;quality;testability;0;1
+some company;quality;reliability;0;1
+some company;quality;recoverability;0;1
+some company;organisation context;budget;-1;0
+some company;organisation context;vision;-1;3
+some company;organisation context;ADR/story telling;-1;1
+some company;organisation context;datawarehouse;0;0
+some company;organisation context;four key metrics;-1;3
+some company;organisation context;end user accessability;-1;1
+some company;functionality;UX;-1;0
+some company;functionality;A/B testing;0;0
