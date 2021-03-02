@@ -1,39 +1,53 @@
-IT ecosystem;aspect;category;information;rating;weight;rating_reason
-some company;legality;GDPR;;1;2;a reason
-some company;legality;licensing;;1;1;a reason
-some company;legality;service level agreements;;0;0;a reason
-some company;security;access regulation;;-1;0;a reason
-some company;security;encryption;;1;2;a reason
-some company;security;owasp dependency checks;;-1;1;a reason
-some company;observability;business metrics;;0;3;a reason
-some company;observability;application metrics;;-1;2;a reason
-some company;observability;system metrics;;0;2;a reason
-some company;observability;code metrics;;0;1;a reason
-some company;observability;source control metrics;;-1;1;a reason
-some company;observability;log file access;;1;2;a reason
-some company;architecture;component dependencies;;1;2;a reason
-some company;architecture;team dependencies;;0;3;a reason
-some company;architecture;scalability;;-1;0;a reason
-some company;development teams;alignment;;0;3;a reason
-some company;development teams;autonomy;;0;3;a reason
-some company;development teams;cognitive load;;1;3;a reason
-some company;development teams;development process;;0;2;a reason
-some company;development teams;four key metrics;;-1;3;a reason
-some company;quality;automated testing;;0;2;a reason
-some company;quality;general automatisation;;0;1;a reason
-some company;quality;reviews;;1;1;a reason
-some company;quality;maintainability;;0;1;a reason
-some company;quality;adoptability;;-1;1;a reason
-some company;quality;modifyability;;0;1;a reason
-some company;quality;testability;;0;1;a reason
-some company;quality;reliability;;0;1;a reason
-some company;quality;recoverability;;0;1;a reason
-some company;organisation context;budget;;-1;0;a reason
-some company;organisation context;vision;;-1;3;a reason
-some company;organisation context;ADR/story telling;;-1;1;a reason
-some company;organisation context;datawarehouse;;0;0;a reason
-some company;organisation context;four key metrics;;-1;3;a reason
-some company;organisation context;end user accessability;;-1;3;a reason
-some company;functionality;UX;;-1;0;a reason
-some company;functionality;A/B testing;;0;0;a reason
-some company;functionality;product owner;Are the right business users easily found and made available? I.e. business user really is the expert, can make decisions and is available.;-1;3;a reason
+IT ecosystem;category;would_you_like_to_question;would_you_x;must_should_nice_to_have;improvability_indicator
+some company;architecture;keep component dependencies minimized;1;2;1
+some company;architecture;have team dependencies minimized;1;2;1
+some company;architecture;be scalable;0;;
+some company;development teams;have teams aligned;1;3;0
+some company;development teams;have autonomic teams;1;3;2
+some company;development teams;keep cognitive load in check;1;3;2
+some company;development teams;work with the four key metrics;1;3;2
+some company;development teams;keep retrospectives;1;2;2
+some company;development teams;keep root cause analyses;1;2;2
+some company;functionality;design proper domain models;1;3;1
+some company;functionality;have a good product owner;1;3;1
+some company;functionality;use A/B testing and experimenting;0;;
+some company;functionality;consider UX regularly;0;;
+some company;legality;comply with GDPR;1;3;0
+some company;legality;have all licenses;1;3;0
+some company;legality;have SLA's;0;;
+some company;maintenance;check failed logins regularly;1;1;2
+some company;maintenance;have your infrastructure scripted;1;3;2
+some company;maintenance;software deployment automated (CI/CD);1;3;1
+some company;maintenance;have your data backuped;1;3;0
+some company;maintenance;be up to date with your 3rd party vendors;1;2;2
+some company;maintenance;be aware of your code hotspots;1;1;2
+some company;maintenance;be aware of your testcoverage;1;1;1
+some company;maintenance;be aware of duplications;1;1;2
+some company;maintenance;have alerting;1;3;1
+some company;maintenance;catastrof recovery testing;1;2;2
+some company;observability;track business metrics;1;3;2
+some company;observability;track application metrics;1;3;1
+some company;observability;track system metrics;1;3;0
+some company;observability;have easy and centralized log file access;1;2;0
+some company;observability;keep code metrics;0;;
+some company;observability;keep source control metrics;0;;
+some company;organisation context;work on technical debt;1;2;1
+some company;organisation context;have an accurate datawarehouse;1;3;1
+some company;organisation context;have sufficient budget;1;2;1
+some company;organisation context;have a clear shared vision;1;3;2
+some company;organisation context;use story telling;1;1;2
+some company;organisation context;have access to end users;1;2;2
+some company;quality;have automated testing;1;3;2
+some company;quality;keep code reviews;1;2;0
+some company;quality;apply automatisation as a principle;1;2;1
+some company;quality;have coding standards;1;1;1
+some company;quality;have unit tests;1;3;1
+some company;quality;have regression tests;1;3;1
+some company;quality;have integration tests;1;3;1
+some company;quality;have acceptance tests;1;3;1
+some company;quality;write idem potent code;1;2;0
+some company;quality;use automatic retry mechanisms;1;2;0
+some company;quality;use ADR's;1;2;2
+some company;security;apply encryption;1;3;0
+some company;security;have access regulation;1;2;1
+some company;security;check owasp dependencies regularly;1;2;2
